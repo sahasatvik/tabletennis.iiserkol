@@ -109,6 +109,20 @@ html {
     color: #000000;
 }
 
+#sourcecode {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: black;
+    opacity: 20%;
+    font-size: 1.5em;
+    padding: 0.5em;
+    transition: 0.2s opacity;
+}
+#sourcecode:hover {
+    opacity: 70%;
+}
+
 @media screen and (max-width:600px) {
     #title {
         font-size: 5em !important;
@@ -139,6 +153,9 @@ html {
     }
     #empty-container {
         height: 0;
+    }
+    #sourcecode {
+        display: none;
     }
 }
 
