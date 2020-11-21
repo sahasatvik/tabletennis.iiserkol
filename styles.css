@@ -27,20 +27,31 @@ body {
     justify-content: center;
     align-content: center;
 }
-
+#empty-container {
+    height: 10vh;
+}
 #main-container {
     justify-content: flex-start;
     padding-top: 1em;
 }
 
+#title-box {
+    margin: 1em 1em 0 1em;
+
+    border: 10px solid;
+    border-image-source: url("border.svg");
+    border-image-slice: 50;
+    border-image-width: 10px;
+    
+}
 #title {
     font-family: 'Playfair Display', serif, monospace;
     font-weight: bold;
     font-size: 6em;
     text-align: center;
     color: #333333;
-
-    padding: 1em 1em 0 1em;
+    
+    padding: 0.5em 0.5em 0 0.5em;
 }
 
 #titleT1, #titleT2 {
@@ -124,6 +135,16 @@ body {
 @media screen and (max-width:350px) {
     #title {
         font-size: 3.5em !important;
+        border: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #title-box {
+        border: none;
+    }
+    #empty-container {
+        height: 0;
     }
 }
 
@@ -141,3 +162,4 @@ body {
         line-height: 1.2em;
     }
 }
+
