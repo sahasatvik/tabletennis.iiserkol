@@ -86,5 +86,15 @@
        d="m 258,138 v -30 h -3.60009 v 26.39991 H 228 V 138 Z"
        style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.274394;stroke-linejoin:round"
        id="path885" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 12,138 v -30 h 3.600087 v 26.39991 H 42 V 138 Z"
+       style="opacity:0.4;fill:#c01010;fill-opacity:1;stroke:none;stroke-width:0.274394;stroke-linejoin:round"
+       id="path887" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 258,12 v 30 h -3.60009 V 15.600087 H 228 V 12 Z"
+       style="opacity:0.4;fill:#c01010;fill-opacity:1;stroke:none;stroke-width:0.274394;stroke-linejoin:round"
+       id="path889" />
   </g>
 </svg>
