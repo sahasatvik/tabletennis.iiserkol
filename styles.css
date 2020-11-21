@@ -14,30 +14,17 @@ html {
     font-size: 16px;
 }
 
-body {
+.global-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-#empty-container, #title-container, #main-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-#empty-container {
-    height: 10vh;
-}
-#main-container {
-    justify-content: flex-start;
-    padding-top: 1em;
+    min-height: 100vh;
 }
 
 #title-box {
-    margin: 1em 1em 0 1em;
+    margin: 1em;
 
     border: 10px solid;
     border-image-source: url("border.svg");
@@ -74,7 +61,7 @@ body {
     flex-direction: row;
     justify-content: center;
     
-    margin: 1em 0 2em 0;
+    margin: 2em 0;
 }
 
 .social-icon {
@@ -127,6 +114,9 @@ body {
         font-size: 5em !important;
         padding: 0;
     }
+    .social-icon {
+        font-size: 2.2em;
+    }
     .menu-links {
         flex-direction: column;
         margin: 0em 0.5em;
@@ -144,21 +134,15 @@ body {
     #title-box {
         border: none;
     }
+    #socialbar {
+        margin-top: 0;
+    }
     #empty-container {
         height: 0;
     }
 }
 
 @media screen and (max-height:800px) {
-    #empty-container, #title-container, #main-container {
-        flex: 0 1 auto;
-    }
-    #title-container {
-        padding-top: 3em;
-    }
-    #main-container {
-        padding-bottom: 4em;
-    }
     #title {
         line-height: 1.2em;
     }
