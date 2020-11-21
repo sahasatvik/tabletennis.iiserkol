@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background: #ffffff;
+    font-family: 'Raleway', sans-serif, monospace;
+    font-weight: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#empty-container, #title-container, #main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#main-container {
+    justify-content: flex-start;
+    padding-top: 1em;
+}
+
+#title {
+    font-family: 'Playfair Display', serif, monospace;
+    font-weight: bold;
+    font-size: 6em;
+    text-align: center;
+    color: #333333;
+
+    padding: 0 1em;
+}
+
+#titleT1, #titleT2 {
+    font-size: 1.2em;
+    color: #C01010;
+}
+
+#subtext {
+    position: relative;
+    font-size: 1.5em;
+    text-align: center;
+
+    color: #666666;
+    margin: 0.5em 0 1em 0
+}
+
+#socialbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin: 1em 0 2em 0;
+}
+
+.social-icon {
+    font-size: 2.5em;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0.5em;
+    transition: 0.2s transform, 0.1s filter;
+}
+.social-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+#social-yt {
+    color: #FF0000;
+}
+#social-fb {
+    color: #4267B2;
+}
+#social-tw {
+    color: #1DA1F2;
+}
+#social-ig {
+    color: #E1306C;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em 0.5em;
+}
+
+.menu-link {
+    font-size: 1.5em;
+    color: #666666;
+    
+    margin: 0.2em 1em;
+}
+
+.menu-link:hover {
+    color: #000000;
+}
+
+@media screen and (max-width:600px) {
+    #title {
+        font-size: 5em !important;
+        padding: 0;
+    }
+    .menu-links {
+        flex-direction: column;
+        margin: 0em 0.5em;
+    }
+}
+
+@media screen and (max-width:350px) {
+    #title {
+        font-size: 3.5em !important;
+    }
+}
+
+@media screen and (max-height:800px) {
+    #empty-container, #title-container, #main-container {
+        flex: 0 1 auto;
+    }
+}
