@@ -40,7 +40,7 @@ body {
     text-align: center;
     color: #333333;
 
-    padding: 0 1em;
+    padding: 1em 1em 0 1em;
 }
 
 #titleT1, #titleT2 {
@@ -130,5 +130,14 @@ body {
 @media screen and (max-height:800px) {
     #empty-container, #title-container, #main-container {
         flex: 0 1 auto;
+    }
+    #title-container {
+        padding-top: 3em;
+    }
+    #main-container {
+        padding-bottom: 4em;
+    }
+    #title {
+        line-height: 1.2em;
     }
 }
