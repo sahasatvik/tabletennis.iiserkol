@@ -1,22 +1,12 @@
 #title-box {
     margin-bottom: 3em;
 }
-.textblock {
-    width: 60%;
-    margin: 0.5em 0;
-    color: #666666;
-    font-size: 1.2em;
-    line-height: 1.4em;
-}
 @media screen and (max-width:600px) {
     #title-box {
         margin-bottom: 1em;
     }
     #title {
         font-size: 4.5em;
-    }
-    .textblock {
-        width: 80%;
     }
 }
 
