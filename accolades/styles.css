@@ -1,0 +1,37 @@
+#awardsbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin: 2em 0;
+}
+
+#awardsbar {
+    margin: 2em 0 1em 0;
+}
+#awardsbar-caption {
+    color: #666666;
+}
+
+.award-icon {
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0.3em;
+    transition: 0.2s transform;
+}
+.award-icon.gold {
+    color: #FCC201;
+}
+.award-icon.silver {
+    color: #A7A7AD;
+}
+.award-icon.bronze {
+    color: #cc6633;
+}
+
+.award-icon:hover {
+    transform: scale(1.1);
+}
+
