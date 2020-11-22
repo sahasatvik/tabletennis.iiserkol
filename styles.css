@@ -184,7 +184,7 @@ body {
     #socialbar {
         margin-top: 0;
     }
-    #awardsbar-caption {
+    .menu-links:last-of-type {
         margin-bottom: 4em;
     }
     #sourcecode {
