@@ -130,7 +130,7 @@ body {
 
 @media screen and (max-width:600px) {
     #title {
-        font-size: 5em !important;
+        font-size: 5em;
         padding: 0;
     }
     .social-icon {

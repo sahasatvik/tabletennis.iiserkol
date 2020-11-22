@@ -12,6 +12,9 @@
     #title-box {
         margin-bottom: 1em;
     }
+    #title {
+        font-size: 4.5em;
+    }
     .textblock {
         width: 80%;
     }
