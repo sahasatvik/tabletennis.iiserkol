@@ -9,7 +9,8 @@
     <title>Table Tennis Club of IISER Kolkata</title>
 </head>
 <body>
-<div id="loader">
+<div id="loader"></div>
+<div id="ball-box">
     <div id="ball"></div>
 </div>
 <style type="text/css" media="all">
@@ -23,7 +24,15 @@
         height: 100%;
         z-index: 10;
         transition: 0.2s opacity;
-
+    }
+    #ball-box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 20;
+        transition: 0.2s opacity;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,25 +51,26 @@
 
     @keyframes bounce{
         0% {
-            transform: translate(0, 20px);
+            transform: translate(0, 40px);
         }
         50% {
-            transform: translate(0, -60px);
+            transform: translate(0, -40px);
         }
         100% {
-            transform: translate(0, 20px);
+            transform: translate(0, 40px);
         }
     } 
 </style>
 <script type="text/javascript" charset="utf-8">
     var loader = document.getElementById('loader');
-    var ball = document.getElementById('ball');
+    var ballbox = document.getElementById('ball-box');
     setTimeout(function() {
         loader.style.opacity = '0';
+        ballbox.style.opacity = '0';
     }, 600);       
     setTimeout(function() {
         loader.style.visibility = 'hidden';
-        ball.style.visibility = 'hidden';
+        ballbox.style.visibility = 'hidden';
     }, 800);       
 </script>
 <div class="global-container">
