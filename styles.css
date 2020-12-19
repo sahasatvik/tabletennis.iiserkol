@@ -29,12 +29,7 @@ body {
 
 #title-box {
     margin: 1em;
-
-    border: 10px solid;
-    border-image-source: url("border.svg");
-    border-image-slice: 50;
-    border-image-width: 10px;
-    
+    max-width: 100vw;
 }
 #title {
     font-family: 'Playfair Display', serif, monospace;
@@ -43,12 +38,12 @@ body {
     text-align: center;
     color: #333333;
     
-    padding: 0.5em 0.5em 0 0.5em;
+    max-width: 100%;
 }
 
 #titleT1, #titleT2 {
     font-size: 1.2em;
-    color: #C01010;
+    color: #f15a29;
 }
 
 #subtext {
