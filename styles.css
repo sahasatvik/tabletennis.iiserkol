@@ -122,6 +122,18 @@ body {
 #sourcecode:hover {
     opacity: 70%;
 }
+#logocredits {
+    position: absolute;
+    bottom: 0;
+    right: 3em;
+    color: black;
+    opacity: 30%;
+    line-height: 1em;
+    padding: 0.8em 0;
+}
+#logocredits:hover {
+    opacity: 70%;
+}
 
 .textblock {
     width: 60%;
@@ -177,6 +189,12 @@ body {
     }
     #sourcecode {
         display: none;
+    }
+    #logocredits {
+        right: 0;
+        width: 100%;
+        text-align: center;
+        opacity: 50%;
     }
 }
 
