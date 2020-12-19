@@ -42,11 +42,6 @@ body {
     max-width: 100%;
 }
 
-#titleT1, #titleT2 {
-    font-size: 1.2em;
-    color: #f15a29;
-}
-
 #subtext {
     position: relative;
     font-size: 1.5em;
