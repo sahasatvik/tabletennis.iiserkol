@@ -1,0 +1,12 @@
+#title-box {
+    margin-bottom: 3em;
+}
+@media screen and (max-width:600px) {
+    #title-box {
+        margin-bottom: 1em;
+    }
+    #title {
+        font-size: 4.5em;
+    }
+}
+
