@@ -31,6 +31,10 @@
     transform: scale(1.1);
 }
 
+.accordion {
+    cursor: pointer;
+}
+
 .accordion h2:after {
     color: #333333;
     content: '\02795';
