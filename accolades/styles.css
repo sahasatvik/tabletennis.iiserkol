@@ -3,16 +3,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2em 0 1.5em 0;
+    margin-bottom: 1.5em;
     font-size: 0.8em;
 }
-.awardsbar-caption {
-    color: #666666;
-    text-align: center;
-    font-size: 0.9em;
-    margin-bottom: 1em;
-}
-
 .award-icon {
     font-size: 2em;
     text-align: center;
@@ -32,6 +25,25 @@
 
 .award-icon:hover {
     transform: scale(1.1);
+}
+
+.accordion h2:after {
+    content: '\02795';
+    float: right;
+}
+
+.accordion.active h2:after {
+    content: "\2796";
+}
+
+.textblock.panel {
+    margin: 0;
+}
+
+.panel {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    max-height: 0;
 }
 
 table {

@@ -87,8 +87,10 @@
         <!-- <h2>Inter IISER Sports Meets</h2> -->
         The Inter IISER Sports Meets (IISM's) are conducted between the 7 IISERS, NISER Bhubaneshwar, CEBS Mumbai, and IISC Bangalore.
     </div>
-    <div id="iism2019" class="textblock">
+    <div id="iism2019" class="textblock accordion">
         <h2>IISM 2019, IISER Pune</h2>
+    </div>
+    <div class="textblock panel">
         <div id="iism2019" class="awardsbar">
             <i class="award-icon fas fa-trophy gold" title="Boys Team"></i>
             <i class="award-icon fas fa-trophy gold" title="Girls Team"></i>
@@ -128,8 +130,11 @@
         In the mixed doubles, the team of Geeta Goyal and Prince Roy won gold, and the team of
         Soumendu Soren and Hrishika Rai won silver.
     </div>
-    <div id="iism2018" class="textblock">
+    
+    <div id="iism2018" class="textblock accordion">
         <h2>IISM 2018, NISER Bhubaneshwar</h2>
+    </div>
+    <div class="textblock panel">
         <div id="iism2018-bar" class="awardsbar">
             <i class="award-icon fas fa-trophy silver" title="Boys Team"></i>
             <i class="award-icon fas fa-trophy gold" title="Girls Team"></i>
@@ -160,37 +165,76 @@
                 </tr>
             </tbody>
         </table>
-        
+    </div>
+
+    <div id="iism2017" class="textblock accordion">
+        <h2>IISM 2017, IISER Mohali</h2>
+    </div>
+    <div class="textblock panel">
         <div id="iism2017-bar" class="awardsbar">
             <i class="award-icon fas fa-trophy gold" title="Girls Team"></i>
         </div>
-        <div class="awardsbar-caption">IISM 2017, IISER Mohali</div>
-        
+    </div>
+    
+    <div id="iism2016" class="textblock accordion">
+        <h2>IISM 2016, IISER Kolkata</h2>
+    </div>
+    <div class="textblock panel">
         <div id="iism2016-bar" class="awardsbar">
             <i class="award-icon fas fa-trophy gold" title="Boys Team"></i>
             <i class="award-icon fas fa-trophy gold" title="Girls Team"></i>
         </div>
-        <div class="awardsbar-caption">IISM 2016, IISER Kolkata</div>
-        
+    </div>
+    
+    <div id="iism2014" class="textblock accordion">
+        <h2>IISM 2014, IISER Mohali</h2>
+    </div>
+    <div class="textblock panel">
         <div id="iism2014-bar" class="awardsbar">
             <i class="award-icon fas fa-trophy silver" title="Boys Team"></i>
             <i class="award-icon fas fa-trophy silver" title="Girls Team"></i>
         </div>
-        <div class="awardsbar-caption">IISM 2014, IISER Mohali</div>
-        
+    </div>
+
+    <div id="iism2013" class="textblock accordion">
+        <h2>IISM 2013, IISER Pune</h2>
+    </div>
+    <div class="textblock panel">
         <div id="iism2013-bar" class="awardsbar">
             <i class="award-icon fas fa-trophy gold" title="Boys Team"></i>
         </div>
-        <div class="awardsbar-caption">IISM 2013, IISER Pune</div>
-        
+    </div>
+
+    <div id="iism2012" class="textblock accordion">
+        <h2>IISM 2012, IISER Kolkata</h2>
+    </div>
+    <div class="textblock panel">
         <div id="iism2012-bar" class="awardsbar">
             <i class="award-icon fas fa-trophy gold" title="Boys Team"></i>
         </div>
-        <div class="awardsbar-caption">IISM 2012, IISER Kolkata</div>
     </div>
 </div>
     <a href="https://github.com/sahasatvik/tabletennis.iiserkol/" target="_blank">
         <i id="sourcecode" class="fab fa-github" title="Website: Ananyapam De, Satvik Saha"></i>
     </a>
 </body>
+<script type="text/javascript" charset="utf-8">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            panel.classList.toggle("hidden");
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+    document.getElementById("iism2019").click()
+</script>
 </html>
