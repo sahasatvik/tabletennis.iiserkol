@@ -1,6 +1,11 @@
 #title-box {
     margin-bottom: 3em;
 }
+
+.menu-link {
+    font-size: 1.2em;
+}
+
 @media screen and (max-width:600px) {
     #title-box {
         margin-bottom: 1em;

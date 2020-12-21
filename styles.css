@@ -99,6 +99,7 @@ body {
 .menu-link {
     font-size: 1.5em;
     color: #666666;
+    text-align: center;
     
     margin: 0.2em 1em;
 }
@@ -148,6 +149,21 @@ body {
     font-size 1em;
     line-height: 1.1em;
     margin: 0.5em 0;
+}
+
+.textblock a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+.textblock a:hover {
+    color: #000000;
+}
+
+.textblock b {
+    color: #333333;
+    font-weight: 500;
 }
 
 @media screen and (max-width:600px) {
