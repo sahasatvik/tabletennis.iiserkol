@@ -2,6 +2,10 @@
     padding-bottom: 4em;
 }
 
+#title-box {
+    margin-top: 4em;
+}
+
 .awardsbar {
     position: relative;
     display: flex;
@@ -57,11 +61,10 @@
     max-height: 0;
 }
 
-#title-box {
-    margin-top: 4em;
-}
-
 @media screen and (max-width:600px) {
+    #title-box {
+        margin-bottom: 1em;
+    }
     #title {
         font-size: 4.5em;
     }
