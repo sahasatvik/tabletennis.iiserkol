@@ -35,32 +35,6 @@
     transform: scale(1.1);
 }
 
-.accordion {
-    cursor: pointer;
-}
-
-.accordion h2:after {
-    color: #333333;
-    content: '\02795';
-    float: right;
-    text-align: right;
-    margin-left: 2em;
-}
-
-.accordion.active h2:after {
-    content: "\2796";
-}
-
-.textblock.panel {
-    margin: 0;
-}
-
-.panel {
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    max-height: 0;
-}
-
 @media screen and (max-width:600px) {
     #title-box {
         margin-bottom: 1em;

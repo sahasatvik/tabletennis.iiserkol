@@ -94,23 +94,86 @@
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         <img src="../img/aboutus.jpg" class="img-wide" alt="Our Team">
     </div>
-    <div class="textblock">
-        <h2>Where can you find us?</h2>
+    <div id="office-bearers-coaches" class="textblock accordion">
+        <h2>Office bearers and coaches</h2>
+    </div>
+    <div class="textblock panel">
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </br></br>
-        Email us at <a href="mailto:tabletennis.activity@iiserkol.ac.in">tabletennis.activity@iiserkol.ac.in</a>.
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th> <th>Secretary</th> <th>Treasurer</th> <th>Convener</th> <th>Coach</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2020</td> <td>Juee Dhar</td> <td>Shruti Mandal</br>Aritra Ghosh</td> <td>Sayan Chattopadhyay</td>
+                    <td>Sandip Mukherjee</td>
+                </tr>
+                <tr>
+                    <td>2019</td> <td>Narayan Sabahit</td> <td>Aditi Sinha</td> <td>Sharmistha Sonowal</td>
+                    <td>Sandip Mukherjee</td>
+                </tr>
+                <tr>
+                    <td>2018</td> <td>Diptatanu Das</td> <td>Anmol Kumar</td> <td>Urvashi Chitnavis</td>
+                    <td>Sandip Mukherjee</td>
+                </tr>
+                <tr>
+                    <td>2017</td> <td>Geeta Goyal</td> <td>Aditya Shukla</td> <td>Rithwik Pandey</td>
+                    <td>Manas Ghosh</td>
+                </tr>
+                <tr>
+                    <td>2016</td> <td>Sayan Ghosh</td> <td>Pratik Jeware</td> <td>Satarupa Das</td>
+                    <td>Manas Ghosh</td>
+                </tr>
+                <tr>
+                    <td>2015</td> <td>Prince Roy</td> <td>Siddharth Patwardhan</td> <td>Arindam Konar</td>
+                    <td>Tarak Das</td>
+                </tr>
+                <tr>
+                    <td>2014</td> <td>Avisekh Nag</td> <td>Avisekh Banerjee</td> <td>Mayuri Kawale</td>
+                    <td>Sudip Bhattacharya</td>
+                </tr>
+                <tr>
+                    <td>2013</td> <td>Chinmay Sapre</td> <td>Abhyuday Chatterjee</td> <td>Rohan Biswas</td>
+                    <td>Sudip Bhattacharya</td>
+                </tr>
+                <tr>
+                    <td>2012</td> <td>Saif Ahmad</td> <td>Debashish Saha</td> <td></td>
+                    <td>Sudip Bhattacharya</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
     </div>
-    </br>
-    <div class="menu-links">
-        <a class="menu-link" href="mailto:jd19ms102@iiserkol.ac.in" target="_blank">Juee Dhar</br>(Secretary)</a>
-        <a class="menu-link" href="mailto:sm19ms140@iiserkol.ac.in" target="_blank">Shruti Mandal</br>(Treasurer)</a>
-        <a class="menu-link" href="mailto:ag19ms108@iiserkol.ac.in" target="_blank">Aritra Ghosh</br>(Treasurer)</a>
-        <a class="menu-link" href="mailto:sc19ms110@iiserkol.ac.in" target="_blank">Sayan Chattopadhyay</br>(Convener)</a>
+    <div id="constitution" class="textblock accordion">
+        <h2>Our rules and our constitution</h2>
+    </div>
+    <div class="textblock panel">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
 </div>
     <a href="https://github.com/sahasatvik/tabletennis.iiserkol/" target="_blank">
         <i id="sourcecode" class="fab fa-github" title="Website: Ananyapam De, Satvik Saha"></i>
     </a>
 </body>
+<script type="text/javascript" charset="utf-8">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            panel.classList.toggle("hidden");
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
 </html>

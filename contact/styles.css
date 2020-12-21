@@ -1,0 +1,22 @@
+.global-container {
+    padding-bottom: 4em;
+}
+
+#title-box {
+    margin-top: 4em;
+}
+
+.menu-link {
+    flex: 1 1 0px;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width:600px) {
+    #title-box {
+        margin-bottom: 1em;
+    }
+    #title {
+        font-size: 4.5em;
+    }
+}
+
