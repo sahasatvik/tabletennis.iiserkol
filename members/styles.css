@@ -1,6 +1,23 @@
 #title-box {
     margin-bottom: 3em;
 }
+
+.textblock .table-wrapper {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+}
+.textblock table {
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+.textblock table th, .textblock table td {
+    padding: 0.1em 0.8em;
+}
+.textblock table tr:nth-child(even), .textblock table thead tr {
+    background: #eeeeee;
+}
+
 @media screen and (max-width:600px) {
     #title-box {
         margin-bottom: 1em;

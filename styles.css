@@ -166,21 +166,13 @@ body {
     font-weight: 500;
 }
 
-@media screen and (max-width:600px) {
-    #title {
-        font-size: 5em;
-        padding: 0;
-    }
-    .social-icon {
-        font-size: 2.2em;
-    }
-    .menu-links {
-        flex-direction: column;
-        margin: 0em 0.5em;
-    }
-    .textblock {
-        width: 80%;
-    }
+.textblock table {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #666666;
 }
 
 @media screen and (max-width:350px) {
@@ -195,8 +187,19 @@ body {
         margin-top: 4em;
         border: none;
     }
+    #title {
+        font-size: 5em;
+        padding: 0;
+    }
     #socialbar {
         margin-top: 0;
+    }
+    .social-icon {
+        font-size: 2.2em;
+    }
+    .menu-links {
+        flex-direction: column;
+        margin: 0em 0.5em;
     }
     .menu-links:last-of-type {
         margin-bottom: 4em;
@@ -209,6 +212,12 @@ body {
         width: 100%;
         text-align: center;
         opacity: 50%;
+    }
+    .textblock {
+        width: 80%;
+    }
+    .textblock table {
+        width: 90%;
     }
 }
 
