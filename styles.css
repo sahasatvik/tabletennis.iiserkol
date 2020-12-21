@@ -169,10 +169,15 @@ body {
 .textblock table {
     text-align: center;
     width: 60%;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em auto;
     color: #666666;
+}
+
+.textblock img {
+    display: block;
+    width: 500px;
+    max-width: 90%;
+    margin: 1em auto;
 }
 
 @media screen and (max-width:350px) {
