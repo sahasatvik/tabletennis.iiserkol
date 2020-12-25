@@ -187,17 +187,26 @@ body {
 
 .accordion {
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0.8em 0;
 }
 
-.accordion h2:after {
+.accordion h2 {
+    margin: 0;
+}
+
+.accordion:after {
     color: #333333;
     content: '\02795';
     float: right;
     text-align: right;
-    margin-left: 2em;
+    font-size: 1.1em;
+    margin-left: 0.5em;
 }
 
-.accordion.active h2:after {
+.accordion.active:after {
     content: "\2796";
 }
 
