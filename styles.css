@@ -316,11 +316,18 @@ body {
             box-shadow: none;
 }
 
+.card.borderless {
+    border-style: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
 .card h2 {
     font-weight: 500;
     color: #333333;
     font-size: 1.5em;
     margin: 0.5em 0;
+    word-wrap: break-word;
 }
 
 @media screen and (max-width:350px) {
