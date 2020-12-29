@@ -260,6 +260,68 @@ body {
     max-height: 0;
 }
 
+.card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    margin: 1em auto;
+}
+
+.card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    
+    font-weight: 400;
+    color: #333333;
+    font-size: 1em;
+
+    margin: 0.5em;
+    padding: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #aaaaaa;
+    border-radius: 7px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    border-color: #333333;
+    -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.card:active {
+    border-color: #aaaaaa;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.card h2 {
+    font-weight: 500;
+    color: #333333;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
 
 @media screen and (max-width:350px) {
     #title {
@@ -306,6 +368,9 @@ body {
         width: 80%;
     }
     .textblock table {
+        width: 90%;
+    }
+    .card-container {
         width: 90%;
     }
 }
