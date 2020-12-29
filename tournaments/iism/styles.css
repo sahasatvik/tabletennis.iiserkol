@@ -8,18 +8,31 @@
 
 .awardsbar {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 1.5em;
     font-size: 0.8em;
 }
 .award-icon {
     font-size: 2em;
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 0.3em;
+    -webkit-transition: 0.2s -webkit-transform;
+    transition: 0.2s -webkit-transform;
+    -o-transition: 0.2s transform;
     transition: 0.2s transform;
+    transition: 0.2s transform, 0.2s -webkit-transform;
 }
 .award-icon.gold {
     color: #FCC201;
@@ -32,7 +45,9 @@
 }
 
 .award-icon:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 @media screen and (max-width:600px) {
@@ -43,4 +58,3 @@
         font-size: 4.5em;
     }
 }
-
