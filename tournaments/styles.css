@@ -16,7 +16,8 @@
 }
 
 .card {
-    flex: 0 1 100px;
+    flex: 0 1 80px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,10 +29,15 @@
     border-width: 2px;
     border-color: #aaaaaa;
     border-radius: 7px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
-
 .card:hover {
     border-color: #333333;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.card:active {
+    border-color: #aaaaaa;
+    box-shadow: none;
 }
 
 .card h2 {
@@ -53,3 +59,9 @@
     }
 }
 
+@media screen and (max-width:350px) {
+    .card {
+        flex: 0 1 120px;
+        height: 60px;
+    }
+}
