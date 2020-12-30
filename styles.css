@@ -39,24 +39,32 @@ body {
 #title-box {
     margin: 1em;
     max-width: 100vw;
+    text-align: center;
 }
 #title {
     font-family: 'Playfair Display', serif, monospace;
     font-weight: bold;
     font-size: 6em;
-    text-align: center;
     color: #333333;
 
     max-width: 100%;
 }
 
 #subtext {
-    position: relative;
     font-size: 1.5em;
-    text-align: center;
-
     color: #666666;
-    margin: 0.5em 0 1em 0
+    
+    margin: 0.5em 0 0.3em 0;
+}
+#home {
+    font-size: 1.2em;
+    text-align: center;
+    color: #888888;
+
+    margin: 0.3em auto 1em auto;
+}
+#home:hover {
+    color: #000000;
 }
 
 #socialbar {
