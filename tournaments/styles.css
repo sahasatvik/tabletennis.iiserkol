@@ -11,7 +11,6 @@
 
 .card-container {
     max-width: 800px;
-    margin-bottom: 4em;
 }
 
 .card {
@@ -25,6 +24,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .global-container {
+        padding-bottom: 4em;
+    }
     #title-box {
         margin-bottom: 1em;
     }
