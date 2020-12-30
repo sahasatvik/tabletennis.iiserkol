@@ -10,15 +10,16 @@
 }
 
 .card-container {
-    margin: 1em 0 4em 0;
+    margin-bottom: 4em;
 }
 
 .card {
-    -ms-flex-preferred-size: 80px;
-        flex-basis: 80px;
-    height: 40px;
+    width: 120px;
+    height: 110px;
+}
 
-    padding: 3em 2em;
+.card h2 {
+    font-size: 1.5em;
 }
 
 @media screen and (max-width:600px) {
@@ -32,8 +33,7 @@
 
 @media screen and (max-width:375px) {
     .card {
-        -ms-flex-preferred-size: 120px;
-            flex-basis: 120px;
-        height: 60px;
+        width: 150px;
+        height: 140px;
     }
 }
