@@ -318,12 +318,14 @@ body {
 }
 .card:active {
     border-color: #aaaaaa;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    -webkit-box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card.borderless {
     border-style: none;
+}
+.card.shadowless {
     -webkit-box-shadow: none;
             box-shadow: none;
 }
