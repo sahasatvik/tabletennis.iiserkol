@@ -10,6 +10,7 @@
 }
 
 .card-container {
+    max-width: 800px;
     margin-bottom: 4em;
 }
 
@@ -20,6 +21,7 @@
 
 .card h2 {
     font-size: 1.5em;
+    margin-bottom: 0.2em;
 }
 
 @media screen and (max-width:600px) {
