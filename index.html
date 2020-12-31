@@ -70,14 +70,16 @@
 <script type="text/javascript" charset="utf-8">
     var loader = document.getElementById('loader');
     var ballbox = document.getElementById('ball-box');
-    setTimeout(function() {
-        loader.style.opacity = '0';
-        ballbox.style.opacity = '0';
-    }, 600);       
-    setTimeout(function() {
-        loader.style.visibility = 'hidden';
-        ballbox.style.visibility = 'hidden';
-    }, 800);       
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            loader.style.opacity = '0';
+            ballbox.style.opacity = '0';
+        }, 200);
+        setTimeout(function() {
+            loader.style.visibility = 'hidden';
+            ballbox.style.visibility = 'hidden';
+        }, 400);
+    }); 
 </script>
 <div class="global-container">
     <div id="title-box">
