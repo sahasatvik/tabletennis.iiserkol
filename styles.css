@@ -224,6 +224,7 @@ body {
     border-collapse: collapse;
 }
 .textblock table th, .textblock table td {
+    vertical-align: top;
     padding: 0.1em 0.8em;
 }
 .textblock table tr:nth-child(even), .textblock table thead tr {
