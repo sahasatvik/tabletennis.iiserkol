@@ -56,14 +56,14 @@ body {
     
     margin: 0.5em 0 0.3em 0;
 }
-#home {
+#title-box a {
     font-size: 1.2em;
     text-align: center;
     color: #888888;
 
-    margin: 0.3em auto 1em auto;
+    margin: 0.3em 0.2em 1em 0.2em;
 }
-#home:hover {
+#title-box a:hover {
     color: #000000;
 }
 
