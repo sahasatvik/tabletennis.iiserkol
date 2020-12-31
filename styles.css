@@ -209,11 +209,25 @@ body {
     font-weight: 500;
 }
 
+.textblock .table-wrapper {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
 .textblock table {
     text-align: center;
-    width: 60%;
-    margin: 1em auto;
     color: #666666;
+    white-space: nowrap;
+    max-width: 60%;
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+.textblock table th, .textblock table td {
+    padding: 0.1em 0.8em;
+}
+.textblock table tr:nth-child(even), .textblock table thead tr {
+    background: #eeeeee;
 }
 
 .textblock img {
