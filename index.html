@@ -17,7 +17,10 @@
 <body>
 <div id="loader"></div>
 <div id="ball-box">
-    <div id="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
 </div>
 <style type="text/css" media="all">
     body {
@@ -29,43 +32,134 @@
         width: 100%;
         height: 100%;
         z-index: 10;
-        transition: 0.2s opacity;
+        transition: 0.4s opacity;
     }
     #ball-box {
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        top: calc(50vh - 50px);
+        left: calc(50vw - 50px);
+        width: 100px;
+        height: 100px;
+        transform: ;
+        -webkit-animation: rotate 3s linear infinite;
+            animation: rotate 3s linear infinite;
         z-index: 20;
         transition: 0.2s opacity;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #ball{
-        width: 40px;
-        height: 40px;
-        margin: auto;
-        border-radius: 50%;
-        background-image: linear-gradient(45deg, #1e1c19, #9196a3, white);
-        animation-name: bounce;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        z-index: 20;
-    }
 
-    @keyframes bounce{
-        0% {
-            transform: translate(0, 40px);
-        }
+    @-webkit-keyframes rotate {
         50% {
-            transform: translate(0, -40px);
+            transform: rotate(180deg);
         }
         100% {
-            transform: translate(0, 40px);
+            transform: rotate(360deg);
         }
-    } 
+    }
+
+    @keyframes rotate {
+        50% {
+            transform: rotate(180deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .ball {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-image: linear-gradient(45deg, #6C757B, #B6BBCF, #FFFFFF);
+        -webkit-animation: racket 1s ease-in-out infinite;
+              animation: racket 1s ease-in-out infinite;
+        transform: scale(0.5);
+        box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+    }
+    .ball:nth-child(1) {
+        background: #D61F26;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+    }
+    .ball:nth-child(1):after {
+        content: "";
+        width: 13px;
+        height: 21px;
+        background: lightblue;
+        position: absolute;
+        top: -15px;
+        transform: rotate(144deg);
+        transform-origin: center center;
+    }
+    .ball:nth-child(3) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        -webkit-animation-delay: 500ms;
+              animation-delay: 500ms;
+    }
+    .ball:nth-child(2) {
+        background: #333333;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        -webkit-animation-delay: 500ms;
+              animation-delay: 500ms;
+    }
+    .ball:nth-child(2):after {
+        content: "";
+        width: 13px;
+        height: 21px;
+        background: lightgreen;
+        position: absolute;
+        top: -15px;
+        transform: rotate(144deg);
+        transform-origin: center center;
+    }
+    .ball:nth-child(4) {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+        box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    @-webkit-keyframes racket {
+        0% {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(0.5);
+        }
+        50% {
+            box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+            transform: translateX(50px) scale(1.2);
+        }
+        100% {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(0.5);
+        }
+    }
+
+    @keyframes racket {
+        0% {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(0.5);
+        }
+        50% {
+            box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+            transform: translateX(50px) scale(1.2);
+        }
+        100% {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(0.5);
+        }
+    }
 </style>
 <script type="text/javascript" charset="utf-8">
     var loader = document.getElementById('loader');
@@ -78,7 +172,7 @@
         setTimeout(function() {
             loader.style.visibility = 'hidden';
             ballbox.style.visibility = 'hidden';
-        }, 400);
+        }, 600);
     }); 
 </script>
 <div class="global-container">
