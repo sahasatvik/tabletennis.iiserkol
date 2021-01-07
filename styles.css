@@ -56,6 +56,7 @@ body {
     
     margin: 0.5em 0 0.3em 0;
 }
+
 #title-box a {
     display: inline-block;
     font-size: 1.2em;
@@ -90,7 +91,7 @@ body {
 
 #socialbar {
     position: relative;
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 .social-icon {
@@ -103,9 +104,9 @@ body {
     text-align: center;
     border-radius: 100%;
     
-    -webkit-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
 }
 .social-icon:hover {
     border-radius: 5px;
@@ -167,6 +168,8 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 
     margin: 1em 0.5em;
 }
@@ -175,6 +178,7 @@ body {
     font-size: 1.5em;
     color: #666666;
     text-align: center;
+    white-space: nowrap;
 
     margin: 0.2em 1em;
 }
