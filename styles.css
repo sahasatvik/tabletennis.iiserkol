@@ -90,55 +90,67 @@ body {
 
 #socialbar {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-
     margin: 2em 0;
 }
 
 .social-icon {
-    font-size: 2.5em;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 2px;
+    padding: 15px;
+    font-size: 38px;
     text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0 0.5em;
-    -webkit-transition: 0.2s -webkit-transform, 0.1s -webkit-filter;
-    transition: 0.2s -webkit-transform, 0.1s -webkit-filter;
-    -o-transition: 0.2s transform, 0.1s filter;
-    transition: 0.2s transform, 0.1s filter;
-    transition: 0.2s transform, 0.1s filter, 0.2s -webkit-transform, 0.1s -webkit-filter;
+    border-radius: 100%;
+    
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 .social-icon:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
-    -webkit-filter: brightness(120%);
-            filter: brightness(120%);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.social-icon:active {
+    -webkit-box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 #social-yt {
     color: #FF0000;
 }
+#social-yt:hover {
+    color: #ffffff;
+    background-color: #FF0000DD;
+}
 #social-fb {
     color: #4267B2;
+}
+#social-fb:hover {
+    color: #ffffff;
+    background-color: #4267B2DD;
 }
 #social-tw {
     color: #1DA1F2;
 }
+#social-tw:hover {
+    color: #ffffff;
+    background-color: #1DA1F2DD;
+}
 #social-ig {
     color: #E1306C;
 }
+#social-ig:hover {
+    color: #ffffff;
+    background-color: #E1306CDD;
+}
 #social-ma {
     color: #E74329;
+}
+#social-ma:hover {
+    color: #ffffff;
+    background-color: #E74329;
 }
 
 .menu-links {
@@ -374,7 +386,10 @@ body {
         margin-top: 0;
     }
     .social-icon {
-        font-size: 2.2em;
+        width: 35px;
+        height: 35px;
+        padding: 12px;
+        font-size: 33px;
     }
     .menu-links {
         -webkit-box-orient: vertical;
@@ -385,15 +400,6 @@ body {
     }
     .menu-links:last-of-type {
         margin-bottom: 4em;
-    }
-    #sourcecode {
-        display: none;
-    }
-    #logocredits {
-        right: 0;
-        width: 100%;
-        text-align: center;
-        opacity: 50%;
     }
     .textblock {
         width: 80%;
