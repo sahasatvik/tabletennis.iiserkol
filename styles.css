@@ -57,14 +57,35 @@ body {
     margin: 0.5em 0 0.3em 0;
 }
 #title-box a {
+    display: inline-block;
     font-size: 1.2em;
     text-align: center;
     color: #888888;
 
-    margin: 0.3em 0.2em 1em 0.2em;
+    padding: 0.5em 0.8em;
+    margin-top: 0.6em;
+    margin-bottom: 0.7em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #aaaaaa;
+    border-radius: 3px;
+    
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
 }
 #title-box a:hover {
-    color: #000000;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #202020;
+    border-color: #202020;
+    -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+#title-box a:active {
+    -webkit-box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 #socialbar {
