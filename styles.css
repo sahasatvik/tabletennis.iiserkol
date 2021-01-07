@@ -224,13 +224,31 @@ body {
 }
 
 .textblock a {
-    text-decoration: none;
+    position: relative;
+    display: inline-block;
     color: #333333;
     font-weight: 500;
 }
-
 .textblock a:hover {
     color: #000000;
+}
+.textblock a::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -1px;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    background-color: #33333399;
+
+    -webkit-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+.textblock a:hover::after {
+    left: 0;
+    right: 0;
 }
 
 .textblock b {
