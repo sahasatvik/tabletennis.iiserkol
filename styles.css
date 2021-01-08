@@ -160,10 +160,15 @@ body {
     background-color: #1DA1F2DD;
 }
 #social-ig {
-    color: #E1306C;
+    background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #social-ig:hover {
     color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+    background: none;
     background-color: #E1306CDD;
 }
 #social-ma {
