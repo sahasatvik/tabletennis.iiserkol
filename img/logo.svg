@@ -9,7 +9,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
-   sodipodi:docname="logo_.svg"
+   sodipodi:docname="logo.svg"
    viewBox="0 0 700 350"
    height="350"
    width="700"
@@ -22,6 +22,8 @@
       <cc:Work
    rdf:about="">
         <dc:format>image/svg+xml</dc:format>
+
+
 
 
 
@@ -48,7 +50,11 @@
 
 
 
+
+
         <dc:title></dc:title>
+
+
 
 
 
@@ -74,7 +80,11 @@
 
 
 
+
+
     </rdf:RDF>
+
+
 
 
 
@@ -100,6 +110,8 @@
 
 
 
+
+
   <defs
    id="defs6"><linearGradient
    id="linearGradient1059"
@@ -109,10 +121,14 @@
    offset="0"
    style="stop-color:#ed0000;stop-opacity:0.9254902" />
 
+
+
 <stop
    style="stop-color:#de0000;stop-opacity:1"
    offset="0.43928638"
    id="stop1065" />
+
+
 
 
 
@@ -127,7 +143,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 <linearGradient
    id="linearGradient1147"
@@ -137,10 +157,14 @@
    offset="0"
    style="stop-color:#a40000;stop-opacity:1" />
 
+
+
 <stop
    style="stop-color:#de0000;stop-opacity:1"
    offset="0.29095"
    id="stop1061" />
+
+
 
 
 
@@ -155,7 +179,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 
 
@@ -173,6 +201,8 @@
 
 
 
+
+
   <stop
    id="stop1139"
    offset="1"
@@ -182,7 +212,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 
 
@@ -208,7 +242,11 @@
 
 
 
+
+
     </clipPath>
+
+
 
 
 
@@ -240,7 +278,11 @@
 
 
 
+
+
     </clipPath>
+
+
 
 
 
@@ -272,7 +314,11 @@
 
 
 
+
+
     </clipPath>
+
+
 
 
 
@@ -304,7 +350,11 @@
 
 
 
+
+
     </clipPath>
+
+
 
 
 
@@ -343,6 +393,8 @@
 
 
 
+
+
   <stop
    id="stop959"
    offset="1"
@@ -352,7 +404,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 
 
@@ -370,6 +426,8 @@
 
 
 
+
+
   <stop
    style="stop-color:#f15a29;stop-opacity:0.57692308"
    offset="1"
@@ -379,7 +437,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 
 
@@ -397,6 +459,8 @@
 
 
 
+
+
   <stop
    style="stop-color:#000000;stop-opacity:0.5"
    offset="1"
@@ -406,7 +470,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 
 
@@ -424,10 +492,14 @@
 
 
 
+
+
   <stop
    style="stop-color:#de0000;stop-opacity:1"
    offset="0.39272428"
    id="stop2449" />
+
+
 
 
 
@@ -442,7 +514,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 
 
@@ -456,10 +532,14 @@
    offset="0"
    id="stop1511" />
 
+
+
 <stop
    id="stop1063"
    offset="0.46971202"
    style="stop-color:#de0000;stop-opacity:1" />
+
+
 
 
 
@@ -474,7 +554,11 @@
 
 
 
+
+
 </linearGradient>
+
+
 
 
 
@@ -496,6 +580,8 @@
 
 
 
+
+
 <linearGradient
    inkscape:collect="always"
    xlink:href="#linearGradient1515"
@@ -506,6 +592,8 @@
    y2="114.38126"
    gradientUnits="userSpaceOnUse"
    gradientTransform="matrix(3.6463788,0,0,-3.6463788,-288.64753,968.81682)" />
+
+
 
 
 
@@ -527,6 +615,8 @@
 
 
 
+
+
 <linearGradient
    inkscape:collect="always"
    xlink:href="#linearGradient2469"
@@ -536,6 +626,8 @@
    x2="134.71071"
    y2="121.64484"
    gradientUnits="userSpaceOnUse" />
+
+
 
 
 
@@ -551,6 +643,8 @@
    y2="131.88741"
    gradientUnits="userSpaceOnUse"
    gradientTransform="matrix(1.2863614,0,0,1.2863614,-78.604881,0.92503151)" />
+
+
 
 
 
@@ -636,6 +730,8 @@
 
 
 
+
+
 <linearGradient
    inkscape:collect="always"
    xlink:href="#linearGradient1141"
@@ -647,6 +743,8 @@
    x2="134.71071"
    y2="121.64484" />
 
+
+
 <linearGradient
    inkscape:collect="always"
    xlink:href="#linearGradient961"
@@ -657,6 +755,8 @@
    y1="145.70503"
    x2="84.564774"
    y2="160.13469" />
+
+
 
 </defs>
 
@@ -671,15 +771,17 @@
 
 
 
+
+
   <sodipodi:namedview
    units="px"
-   inkscape:current-layer="g992"
+   inkscape:current-layer="g932"
    inkscape:window-maximized="0"
    inkscape:window-y="25"
    inkscape:window-x="0"
-   inkscape:cy="242.8121"
-   inkscape:cx="324.23856"
-   inkscape:zoom="0.98994949"
+   inkscape:cy="368.34818"
+   inkscape:cx="314.96593"
+   inkscape:zoom="0.66344234"
    showgrid="false"
    inkscape:document-rotation="0"
    id="namedview4"
@@ -696,7 +798,10 @@
    fit-margin-top="0"
    fit-margin-left="0"
    fit-margin-right="0"
-   fit-margin-bottom="0" />
+   fit-margin-bottom="0"
+   inkscape:snap-nodes="false" />
+
+
 
 
 
@@ -741,18 +846,20 @@
 
   <g
    id="g992"
-   transform="translate(0,18.803609)">
+   transform="translate(0,138.89132)">
   <g
    id="g932"
-   transform="translate(30.046656,-22.886964)">
+   transform="translate(30.046656,-135.33336)">
   <g
    id="g977"
-   transform="translate(7.4533447)">
+   transform="translate(7.4533447,-7.8036051)">
     <path
    id="path146"
    style="opacity:1;fill:url(#linearGradient1618);fill-opacity:1;stroke:none;stroke-width:0.964769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stop-opacity:1"
    d="M 99.265788,455.40787 76.31291,441.153 c 17.178203,-8.44035 34.36583,-16.44605 50.00792,-28.6435 9.29955,-7.10864 17.11427,-15.20549 19.03916,-26.02247 0.38998,1.48164 0.72436,2.97723 1.01754,4.48092 2.31431,13.59783 0.67615,29.02011 -8.78847,39.72898 -9.99654,11.5882 -23.9523,18.86097 -37.933214,24.54514 -0.128494,0.0556 -0.261439,0.11055 -0.390058,0.16583 z"
    inkscape:connector-curvature="0" />
+
+
 
 
 
@@ -768,11 +875,15 @@
 
 
 
+
+
 <path
    inkscape:connector-curvature="0"
    d="m 102.841,394.22 h -24.64 v 134.974 h 24.64 z"
    style="opacity:1;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stop-opacity:1"
    id="path104" />
+
+
 
 
 
@@ -789,6 +900,8 @@
 
 
 
+
+
 <path
    id="path137-2"
    style="display:inline;opacity:1;fill:url(#linearGradient1172);fill-opacity:1;stroke:none;stroke-width:0.964769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stop-opacity:1"
@@ -800,11 +913,15 @@
 
 
 
+
+
 <path
    inkscape:connector-curvature="0"
    id="path926"
    style="opacity:1;fill:#de0000;fill-opacity:1;stroke:none;stroke-width:0.964769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stop-opacity:1"
    d="M 102.03228,440.88422 90.4946,461.70591 c -5.832252,-2.57938 -11.654357,-5.13632 -17.446898,-7.90472 -0.539272,-0.25767 -1.060498,-0.55352 -1.597907,-0.81587 L 83.27954,431.61147 c 1.599542,0.82647 3.183811,1.74586 4.780519,2.55138 5.201745,2.62423 9.536993,4.62909 13.972221,6.72137 z" />
+
+
 
 
 
@@ -821,6 +938,8 @@
 
 
 
+
+
 <path
    sodipodi:nodetypes="ccczccccc"
    inkscape:connector-curvature="0"
@@ -832,9 +951,11 @@
 
 
 
+
+
 <g
    aria-label="K"
-   transform="matrix(1,0,0,-0.89703794,139.9966,394.22)"
+   transform="matrix(0.94399304,0,0,-0.84679757,140.79345,394.22)"
    id="text14"
    style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:142.138px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none">
   <path
@@ -849,7 +970,11 @@
 
 
 
+
+
 </g>
+
+
 
 
 
@@ -881,6 +1006,8 @@
 
 
 
+
+
           <g
    id="g38">
             <g
@@ -890,12 +1017,7 @@
               <g
    transform="translate(124.75,628.75)"
    id="g34">
-                <path
-   inkscape:connector-curvature="0"
-   d="M 0,0 36.75,-25.25"
-   style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-   id="path32" />
-
+                
 
 
 
@@ -908,6 +1030,8 @@
 
 
               </g>
+
+
 
 
 
@@ -933,7 +1057,11 @@
 
 
 
+
+
           </g>
+
+
 
 
 
@@ -959,6 +1087,8 @@
 
 
 
+
+
       </g>
 
 
@@ -972,7 +1102,11 @@
 
 
 
+
+
     </g>
+
+
 
 
 
@@ -998,11 +1132,15 @@
 
 
 
+
+
     <path
    inkscape:connector-curvature="0"
    d="m 257.097,394.22 h -20.916 v 94.45079 h 20.916 z"
    style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.0124"
    id="path42" />
+
+
 
 
 
@@ -1028,11 +1166,15 @@
 
 
 
+
+
     <path
    inkscape:connector-curvature="0"
    d="m 285.78203,500.85908 h -9.50104 v 18.80787 h 9.50104 z"
    style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.04757"
    id="path46" />
+
+
 
 
 
@@ -1062,7 +1204,11 @@
 
 
 
+
+
 </g>
+
+
 
 
 
@@ -1098,7 +1244,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1131,7 +1281,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1164,7 +1318,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1197,7 +1355,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1230,7 +1392,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1256,7 +1422,11 @@
 
 
 
+
+
     </g>
+
+
 
 
 
@@ -1288,7 +1458,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1315,7 +1489,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1342,7 +1520,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1369,7 +1551,11 @@
 
 
 
+
+
         </g>
+
+
 
 
 
@@ -1391,18 +1577,28 @@
 
 
 
+
+
 </g>
+
+
 
 
 
   
 
 
+
+
 </g>
 
 
 
+
+
 </g>
+
+
 
 
 
